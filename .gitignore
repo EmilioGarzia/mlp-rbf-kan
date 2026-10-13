@@ -1,0 +1,31 @@
+# Papers / personal reference material
+*.pdf
+
+# Datasets (MNIST is downloaded automatically by torchvision into ./data)
+data/
+
+# Stray duplicate of the package sources (the real package lives in mlp_rbf_kan/src)
+/src/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
